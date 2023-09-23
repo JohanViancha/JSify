@@ -1,7 +1,7 @@
 export interface dictionary {
     token: string,
     description:string,
-    value:string
+    type: TypeToken
 }
 
 export enum TypeToken {
